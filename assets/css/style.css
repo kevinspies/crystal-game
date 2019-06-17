@@ -1,27 +1,43 @@
-#winlossbox{
-    padding: 30px;
-    background-color: lightblue;
-    width: 50px;
+
+#winbox{
+    color: white;
+}
+#lossbox{
+    color: white;
+}
+#totalbox{
+    color:white;
 }
 #scorebox{
  padding: 40px;
  background-color: lightgreen;
+ opacity: .7;
+ max-width: 500px;
 }
 #instructionsbox{
     background-color: lightpink;
     line-height: 1.8;
     padding: 50px;
+    opacity: .5;
+    color: yellow;
+    max-width: 700px;
 }
 #titlebox{
     padding: 50px;
     background-color: lightcyan;
+    opacity: .5;
+    max-width: 600px;
 }
 #randnumbox{
     padding: 40px;
     background-color: lightgoldenrodyellow;
+    opacity: .8;
+    max-width: 300px;
 }
 img{
     max-width: 75px;
     max-height: 75px;
 }
-
+body {
+ background-image: url("../images/space.jpg");
+}
