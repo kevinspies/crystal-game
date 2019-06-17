@@ -1,0 +1,22 @@
+#winlossbox{
+    padding: 30px;
+    background-color: lightblue;
+    width: 50px;
+}
+#scorebox{
+ padding: 40px;
+ background-color: lightgreen;
+}
+#instructionsbox{
+    background-color: lightpink;
+    line-height: 1.8;
+    padding: 50px;
+}
+#titlebox{
+    padding: 50px;
+    background-color: lightcyan;
+}
+#randnumbox{
+    padding: 40px;
+    background-color: lightgoldenrodyellow;
+}
