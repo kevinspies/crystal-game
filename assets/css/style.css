@@ -15,11 +15,11 @@
  max-width: 500px;
 }
 #instructionsbox{
-    background-color: lightpink;
+    background-color: lightblue;
     line-height: 1.8;
     padding: 50px;
-    opacity: .5;
-    color: yellow;
+    opacity: .8;
+    color: red;
     max-width: 700px;
 }
 #titlebox{
