@@ -1,9 +1,11 @@
 
 #winbox{
     color: white;
+    padding: 10px;
 }
 #lossbox{
     color: white;
+    padding: 10px;
 }
 #totalbox{
     color:white;
@@ -13,6 +15,7 @@
  background-color: lightgreen;
  opacity: .7;
  max-width: 500px;
+ font-size: 40px;
 }
 #instructionsbox{
     background-color: lightblue;
@@ -33,6 +36,7 @@
     background-color: lightgoldenrodyellow;
     opacity: .8;
     max-width: 300px;
+    font-size: 40px; 
 }
 img{
     max-width: 75px;
