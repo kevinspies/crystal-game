@@ -18,7 +18,9 @@ $(document).ready(function () {
         rand3 = Math.floor(Math.random() * 12) + 1;
         rand4 = Math.floor(Math.random() * 12) + 1;
         $("#scorebox").text(total);
-        $("#randnumbox").text(total);
+        $("#randnumbox").text(randNum);
+        $("#winbox").text("wins: " + wins);
+        $("#lossbox").text("losses: " + losses);
     }
 
     newGame();
