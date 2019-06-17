@@ -18,22 +18,22 @@
  font-size: 40px;
 }
 #instructionsbox{
-    background-color: lightblue;
+    background-color: black;
     line-height: 1.8;
     padding: 50px;
     opacity: .8;
-    color: red;
+    color: yellow;
     max-width: 700px;
 }
 #titlebox{
     padding: 50px;
-    background-color: lightcyan;
+    background-color: red;
     opacity: .5;
     max-width: 600px;
 }
 #randnumbox{
     padding: 40px;
-    background-color: lightgoldenrodyellow;
+    background-color: lightcyan;
     opacity: .8;
     max-width: 300px;
     font-size: 40px; 
