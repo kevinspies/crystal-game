@@ -1,45 +1,63 @@
 
 
 
-//map crystalButton1 to rand1, crstalButton2 to rand2 etc.. this in html
+$(document).ready(function () {
 
-var randNum;//display to user
-var total;
-var rand1;
-var rand2;
-var rand3;
-var rand4;
+    var randNum;
+    var total;
+    var rand1;
+    var rand2;
+    var rand3;
+    var rand4;
+    var wins = 0;
+    var losses = 0;
 
-function addCrystal1() {
-    total = total + rand1;
+    function newGame() {
+        total = 0;
+        randNum = Math.floor(Math.random() * 101) + 19;//19-120
+        rand1 = Math.floor(Math.random() * 12) + 1;//1-12
+        rand2 = Math.floor(Math.random() * 12) + 1;
+        rand3 = Math.floor(Math.random() * 12) + 1;
+        rand4 = Math.floor(Math.random() * 12) + 1;
+        //set #scorebox to 0
+        //display new randNum
+    }
 
-}
-function addCrystal2() {
-    total = total + rand2;
+    $("#crystal1").on("click", function () {
 
-}
-function addCrystal3() {
-    total = total + rand3;
+        total = total + rand1;
 
-}
-function addCrystal4() {
-    total = total + rand4;
+    });
+    $("#crystal2").on("click", function () {
 
-}
+        total = total + rand2;
 
-//
-if (total > randNum) {//loss
-    losses++;
-    newGame();
-}
-else {
-    //update html on screen
-}
+    });
+    $("#crystal3").on("click", function () {
 
-function newGame() {
-    rand1 = Math.floor(Math.random() * 101) + 19;//19-120
-    rand2 = Math.floor(Math.random() * 101) + 19;
-    rand3 = Math.floor(Math.random() * 101) + 19;
-    rand4 = Math.floor(Math.random() * 101) + 19;
-}
+        total = total + rand3;
+
+    });
+    $("#crystal4").on("click", function () {
+
+        total = total + rand4;
+
+    });
+
+
+
+    if (total > randNum) {//loss
+        losses++;
+        newGame();
+    }
+    else if (total === randNum) {//win 
+        wins++;
+        newGame();
+    }
+    else {//total < randNum
+        //update html on screen
+
+    }
+
+})
 
