@@ -14,61 +14,66 @@
 </head>
 
 <body>
+    <div id="container">
 
-    <div id="titlebox">
-        <h1>CrystalsCollector!</h1>
-    </div>
-
-    <div id="instructionsbox">
-        <p>You will be given a random number at the start of the game.</p>
-        <p>There are four crstals below. By clicking on a crystal you will add a specific
-            amount of points to your total score.</p>
-        <p>The value of each crystal is hidden from you until tou click on it.</p>
-        <p>Each time the game starts, the game will change the values of each crystal.</p>
-    </div>
-
-    <div class="row">
-        <div class="col" id="randnumbox">
-            randNum
+        <div id="titlebox">
+            <h1>CrystalsCollector!</h1>
         </div>
 
-        <!--make a row for wins and a row for losses-->
-        <div class="col">
-            <div class="row" id="winbox">
-                wins
-            </div>
-            <div class="row" id="lossbox">
-                losses
+        <div id="instructionsbox">
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are four crstals below. By clicking on a crystal you will add a specific
+                amount of points to your total score.</p>
+            <p>The value of each crystal is hidden from you until tou click on it.</p>
+            <p>Each time the game starts, the game will change the values of each crystal.</p>
+        </div>
+
+        <div class="row">
+            <div class="col" id="randnumbox">
+                randNum
             </div>
 
+            <!--make a row for wins and a row for losses-->
+            <div class="col" id="winlossbox">
+                <div class="row" id="winbox">
+                    wins
+                </div>
+                <div class="row" id="lossbox">
+                    losses
+                </div>
+
+            </div>
+
         </div>
 
+        <div class="row">
+            <div class="col-2">
+                <!--crystal image here-->
+                <img src="assets/images/crystal5.jpg" alt=crystal1pic height="75" width="75" class="crystal"
+                    id="crystal1">
+            </div>
+            <div class="col-2">
+                <img src="assets/images/crystal11.jpg" alt=crystal2pic height="75" width="75" class="crystal"
+                    id="crystal2">
+            </div>
+            <div class="col-2">
+                <img src="assets/images/crystal3.jpg" alt=crystal3pic height="75" width="75" class="crystal"
+                    id="crystal3">
+            </div>
+            <div class="col-2">
+                <img src="assets/images/crystal4.jpg" alt=crystal4pic height="75" width="75" class="crystal"
+                    id="crystal4">
+            </div>
+        </div>
+
+        <div id="totalbox">
+            your total score is:
+        </div>
+
+        <div id="scorebox">
+            score
+        </div>
     </div>
-
-    <div class="row">
-        <div class="col-1">
-            <!--crystal image here-->
-            <img src="assets/images/crystal5.jpg" alt=crystal1pic height="75" width="75" class="crystal" id="crystal1">
-        </div>
-        <div class="col-1">
-            <img src="assets/images/crystal11.jpg" alt=crystal2pic height="75" width="75" class="crystal" id="crystal2">
-        </div>
-        <div class="col-1">
-            <img src="assets/images/crystal3.jpg" alt=crystal3pic height="75" width="75" class="crystal" id="crystal3">
-        </div>
-        <div class="col-1">
-            <img src="assets/images/crystal4.jpg" alt=crystal4pic height="75" width="75" class="crystal" id="crystal4">
-        </div>
-    </div>
-
-    <div id="totalbox">
-        your total score is:
-    </div>
-
-    <div id="scorebox">
-        score
-    </div>
-
 
 
 </body>

@@ -2,10 +2,12 @@
 #winbox{
     color: white;
     padding: 10px;
+    margin-left: 15px;
 }
 #lossbox{
     color: white;
     padding: 10px;
+    margin-left: 15px;
 }
 #totalbox{
     color:white;
@@ -44,4 +46,8 @@ img{
 }
 body {
  background-image: url("../images/space.jpg");
+}
+#container{
+    margin: auto;
+  width: 50%;
 }
